@@ -1,0 +1,87 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Porfolio</title>
+    <meta name="description" content="">
+    <link rel="shortcut icon" href="images/logo.svg" type="image/svg">
+    <link rel="stylesheet" href="css/site.css">
+    <link href="https://css.gg/css" rel="stylesheet" />
+    <script src="js/site.js"></script>    
+</head>
+
+<body>
+    <div class="main-content">
+        <aside>
+            <div class="profile">
+                <img src="images/avatar/avatar1.jpg" class="my-photo" id="photo-profile" />
+                <div>
+                    <h1 class="title">Lic. Ignacio German Anguino Hernández</h1>
+                    <div class="badge-profile">Docente</div>
+                    <div class="social">
+                        <a href="https://www.facebook.com/german.hdz.31" target="_blank"><i class="gg-facebook"></i></a>
+                        <a href="x.com" target="_blank"><i class="gg-twitter"></i></a>
+                        <a href="youtube.com" target="_blank"><i class="gg-youtube"></i></a>
+                        <a href="pokemon-go.com" target="_blank"><i class='gg-pokemon'></i></a>
+                    </div>
+                </div>
+                <div class="info">
+                    <ul class="contacts-block">
+                        <li class="contacts-block-item"><i class="gg-calendar"></i> Julio, 2024 </li>
+                        <li class="contacts-block-item"><i class="gg-pin"></i> Plantel 5 </li>
+                        <li class="contacts-block-item"><a href="mailto:iganguianohz@cobaep.edu.mx"><i class="gg-mail"></i>anguianoh@hotmail.com</a></li>
+                        <li class="contacts-block-item"><i class="gg-phone"></i>2481388125</li>
+                        <li class="contacts-block-item"><a href="skype:ejemplo"><i class="gg-phone"></i>anguianoh@hotmail.com</a></li>
+                    </ul>
+                    <a href="documentos/CURRICULUM  vITAE 2022.pdf" class="btn"><i class="font-icon icon-download"></i> Descargar</a>
+
+
+                </div>
+            </div>
+
+        </aside>
+        <section class="resume">
+            <header>
+                <div class="menu-circle" onclick="toggleMenu()">
+                    <i class="gg-menu-oreos"></i>
+                </div>
+                <div class="inner-menu js-menu">
+                    <ul class="nav">
+                        <li class="nav_item"><a class="active" href="index.html">Acerca de</a></li>
+                        <li class="nav_item"><a href="portfolio.html">Portafolio</a></li>
+                        <li class="nav_item"><a href="operaciones.html">Operaciones</a></li>
+                    </ul>
+                </div>
+            </header>
+            <div>
+                <h2 class="title bordered">Portfolio</h2>
+                <div class="portfolio">
+                    <img src="https://historia.nationalgeographic.com.es/medio/2018/03/17/einstein__1280x720.jpg" onclick="showImage(this)">
+                    <img src="https://c4.wallpaperflare.com/wallpaper/530/421/255/mathematics-equation-black-derivative-wallpaper-preview.jpg" onclick="showImage(this)">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEinobCfBC9sD-lL1a9szs8IoasEeX5glpB6gzk-75yk1lrbu8QdXrEaQ8ZZ6c6RPgbptVPkMszEsTbpa6z0QePutqJ0Q7SyiUykflhfU5Cag2QHSmxaUceNIsrYLEEkAJ3elDelHqriI1E/s1600/smart-math-games-hd-wallpaper-14.jpg" onclick="showImage(this)">
+                    <img src="https://i.pinimg.com/736x/40/ce/49/40ce49d5a3e3262ce40d252780118331.jpg" onclick="showImage(this)">
+                    <img src="https://i.pinimg.com/736x/10/65/8e/10658e676c7c40b18f7d9b3cd3b7930f.jpg" onclick="showImage(this)">
+                    <img src="resources/mario-luigi-yoschi-figures-163036.jpeg" onclick="showImage(this)">
+                    <img src="https://cards.algoreducation.com/_next/image?url=https%3A%2F%2Ffiles.algoreducation.com%2Fproduction-ts%2F__S3__0ea311bb-1eb5-44a6-aba1-23459d4c4bd3&w=3840&q=75" onclick="showImage(this)">
+                    <img src="https://prod-discovery.edx-cdn.org/media/course/image/f9a77e43-da63-4c9b-9449-b564c5fe1729-2e1186969808.small.jpg" onclick="showImage(this)">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI8qi8QZ1TxekpDp1VS3PXl9kvzgXnImHgx7vDf9awAMLDDQ0P6iMYwjD6eyO2IWRUO_0&usqp=CAU" onclick="showImage(this)">
+                 </div>   
+                  <div class="modal" id="preview">
+                        <div><a class="close" onclick="closeModal()"><i class="gg-close-r"></i>&nbsp;Cerrar&nbsp;</a> 
+                       </div>
+                </div>
+                
+
+            </div>
+        </section>
+
+        
+    </div>
+    <footer>
+        Diseñador: Lic. Ignacio German Anguino Hernandez 
+        </footer>
+</body>
+
+</html>

@@ -1,0 +1,85 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Operaciones</title>
+    <meta name="description" content="">
+    <link rel="shortcut icon" href="images/logo.svg" type="image/svg">
+    <link rel="stylesheet" href="css/site.css">
+    <link href="https://css.gg/css" rel="stylesheet" />
+ 
+    <script src="js/site.js"></script>    
+</head>
+
+<body>
+    <div class="main-content">
+        <aside>
+            <div class="profile">
+                <img src="images/avatar/avatar1.jpg" class="my-photo" id="photo-profile" />
+                <div>
+                    <h1 class="title">Lic. Ignacio German Anguino Hernández</h1>
+                    <div class="badge-profile">Docente</div>
+                    <div class="social">
+                        <a href="https://www.facebook.com/german.hdz.31" target="_blank"><i class="gg-facebook"></i></a>
+                        <a href="x.com" target="_blank"><i class="gg-twitter"></i></a>
+                        <a href="youtube.com" target="_blank"><i class="gg-youtube"></i></a>
+                        <a href="pokemon-go.com" target="_blank"><i class='gg-pokemon'></i></a>
+                    </div>
+                </div>
+                <div class="info">
+                    <ul class="contacts-block">
+                        <li class="contacts-block-item"><i class="gg-calendar"></i> Julio, 2024 </li>
+                        <li class="contacts-block-item"><i class="gg-pin"></i> Plantel 5 </li>
+                        <li class="contacts-block-item"><a href="mailto:iganguianohz@cobaep.edu.mx"><i class="gg-mail"></i>anguianoh@hotmail.com</a></li>
+                        <li class="contacts-block-item"><i class="gg-phone"></i>2481388125</li>
+                        <li class="contacts-block-item"><a href="skype:ejemplo"><i class="gg-phone"></i>anguianoh@hotmail.com</a></li>
+                    </ul>
+                    <a href="documentos/CURRICULUM  vITAE 2022.pdf" class="btn"><i class="font-icon icon-download"></i> Descargar</a>
+
+                </div>
+            </div>
+
+        </aside>
+        <section class="resume">
+            <header>
+                <div class="menu-circle" onclick="toggleMenu()">
+                    <i class="gg-menu-oreos"></i>
+                </div>
+                <div class="inner-menu js-menu">
+                    <ul class="nav">
+                        <li class="nav_item"><a class="active" href="index.html">Acerca de</a></li>
+                        <li class="nav_item"><a href="portfolio.html">Portafolio</a></li>
+                        <li class="nav_item"><a href="operaciones.html">Operaciones</a></li>
+                    </ul>
+                </div>
+            </header>
+            <div>
+                <h1>Operaciones básicas</h1>
+               
+                    <input type="number" id="num1" placeholder="Primer número">
+                    <input type="number" id="num2" placeholder="Segundo número">
+                      <select id="operacion">
+                         <option value="+">Suma</option>
+                        <option value="-">Resta</option>
+                        <option value="*">Multiplicación</option>
+                        <option value="/">División</option>
+                    </select>
+            
+                    <button onclick="calcular()">Calcular</button>
+            
+                  <p> El Resultado de tu Operación es: </p> <p id="resultado"></p>
+                                 <script src="js/script.js"></script>
+                
+            </div>
+        </section>
+
+        
+    </div>
+    <footer>
+           <h2> Diseñador: Lic. Ignacio German Anguino Hernandez </h2> 
+        </footer>
+</body>
+
+</html>
